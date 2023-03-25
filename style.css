@@ -1,0 +1,40 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid rgba(52, 52, 151, 0.872);
+    padding: 1em;
+}
+textarea, label , input {
+    display: block;
+}
+h1{
+    color: rgba(0, 21, 106, 0.709);
+    font-weight: 000;
+    font-size: bolder;
+}
+label{
+    color: rgba(7, 7, 123, 0.861);
+    font-size: larger;
+    font-weight: 900;
+    margin-top: 20px;
+}
+textarea , input{
+    width: 50%;
+    height: 50px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    border: 2px solid rgba(110, 4, 4, 0.904);
+    background: rgba(227, 8, 8, 0.95);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 0.5px 2px gray;
+}
